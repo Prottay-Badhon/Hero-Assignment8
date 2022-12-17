@@ -56,11 +56,11 @@ const Shop = () => {
         <h1>Watch Fashion</h1>   
         <div className="shop">
             
-            {/* <div className="shopping-product">
+            <div className="shopping-product">
               {
                 products.map(product => <Product product={product} key={product.id} cartHandler={cartHandler}></Product>)
               }
-            </div> */}
+            </div>
             <div className="shopping-cart">
                 <Cart cart={cart} removeProduct={removeProduct}></Cart>                   
                    <div className="choose-btn-container">
@@ -75,7 +75,7 @@ const Shop = () => {
                             <img src={choose.image} alt="" />
                         </div>
                             <h2>{choose.name}</h2>
-                            {/* <FontAwesomeIcon icon={faTrash}  className={toggle?'trash-icon':'hide-trash'} onClick={()=>clearChoose()}></FontAwesomeIcon> */}
+                            <FontAwesomeIcon icon={faTrash}  className={toggle?'trash-icon':'hide-trash'} onClick={()=>clearChoose()}></FontAwesomeIcon>
                      </div>
                    }
             </div>
