@@ -5,7 +5,7 @@ import { faTrash } from '@fortawesome/free-solid-svg-icons';
 
 const Cart = (props) => {
   const cart = props.cart;
-//   const removeItem = props.removeProduct;
+  const removeItem = props.removeProduct;
     return (
         <div className='cart-container'>
            {
