@@ -5,6 +5,7 @@ import "./Shop.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrash } from '@fortawesome/free-solid-svg-icons';
 import StateVsProps from '../StateVsProps/StateVsProps';
+import HowWorks from '../ReactWorks/HowWorks';
 
 const Shop = () => {
     const [products, setProducts]=useState([])
@@ -80,6 +81,7 @@ const Shop = () => {
                    }
             </div>
             <StateVsProps></StateVsProps>
+            <HowWorks></HowWorks>
         </div>
     </div>
 
