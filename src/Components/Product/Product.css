@@ -1,0 +1,35 @@
+.product{
+    width: 280px;
+    border-radius: 8px;
+    position: relative;
+    height: 500px;
+    background-color: white;
+}
+.product img{
+    height: 286px;
+    width: 280px;
+    border-radius: 8px;
+}
+.cart-btn{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+    grid-gap: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0 20px
+}
+.cart-btn p{
+    font-size: 15px;
+    color: rgb(33, 137, 206);
+}
+.cart-icon{
+    font-size: 30px;
+}
+.product-info{
+    padding: 0 15px;
+}
+.cart-btn:hover{
+    background-color: gainsboro;
+}

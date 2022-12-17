@@ -1,0 +1,5 @@
+.stateProps{
+display: flex;
+justify-content: space-around;
+padding: 20px 50px;
+}
