@@ -53,7 +53,7 @@ const Shop = () => {
         
     return (
      <div className='shopping-container'>
-        <h1></h1>   
+        <h1>Watch Fashion</h1>   
         <div className="shop">
             
             <div className="shopping-product">
